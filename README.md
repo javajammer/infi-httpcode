@@ -1,10 +1,19 @@
-- 👋 Hi, I’m @javajammer
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+```python
+class JavaJammer():
+    
+  def __init__(self):
+    self.name = "Java Jammer";
+    self.username = "javajammer";
+    self.location = "Jakarta, Indonesia";
+    self.twitter = "@miakhalifa)";
+    self.web = "https://infokes.co.id";
+  
+  def __str__(self):
+    return self.name
+
+if __name__ == '__main__':
+    me = JavaJammer()
+```
 
 <!---
 javajammer/javajammer is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
