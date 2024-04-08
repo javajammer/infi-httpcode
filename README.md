@@ -5,7 +5,7 @@ class JavaJammer():
     self.name = "Java Jammer";
     self.username = "javajammer";
     self.location = "Jakarta, Indonesia";
-    self.twitter = "@miakhalifa)";
+    self.twitter = "@infokes)";
     self.web = "https://infokes.co.id";
   
   def __str__(self):
