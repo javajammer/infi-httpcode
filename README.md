@@ -14,6 +14,9 @@ class JavaJammer():
 if __name__ == '__main__':
     me = JavaJammer()
 ```
+<p>HTML Error Code Pages</br></br>
+html 5xx - https://err-code.infokes.id/cloudflare-5xx.html
+</p>
 
 <!---
 javajammer/javajammer is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
