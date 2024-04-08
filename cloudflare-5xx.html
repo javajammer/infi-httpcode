@@ -1,0 +1,153 @@
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ePuskesmas.id - 5xx</title>
+
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                font-family: "DM Sans", sans-serif;
+                background-color: #F7F7F7;
+                font-size: 14px;
+            }
+
+            .cta-primary {
+                background-color: #28A745;
+                color: #FFFFFF;
+                border: 1px solid #28A745;
+                border-radius: 8px;
+                font-weight: 600;
+                padding: 8px 16px;
+                transition: all 0.3s;
+                width: 100%;
+            }
+            .cta-primary:hover, .cta-primary:focus, .cta-primary:active {
+                background-color: #208537;
+                border-color: #208537;
+                cursor: pointer;
+            }
+
+            .op-plate {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 32px;
+                /* height: 100vh;*/
+                max-width: 850px;
+                margin: 10vh auto 0;
+            }
+            .op-plate .opp-content {
+                background-color: #FFFFFF;
+                border: 1px solid #DDDDDD;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+                padding: 48px;
+                border-radius: 12px;
+                display: flex;
+                align-items: center;
+                gap: 48px;
+            }
+            .op-plate .opp-content .oppc-text {
+                border-left: 1px solid #eeeeee;
+                padding-left: 48px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            .op-plate .opp-content .oppc-text .oppct-title {
+                font-size: 20px;
+                font-weight: bold;
+                line-height: 1.5;
+            }
+            .op-plate .opp-content .oppc-text .oppct-desc {
+                color: #272727;
+            }
+            .op-plate .opp-content .oppc-text .oppct-desc .token-placeholder {
+                color: #6a6a6a;
+                font-size: 12px;
+            }
+            .op-plate .opp-content .oppc-text .oppct-desc .token-placeholder h1 {
+                margin-top: 0px;
+                margin-bottom: 10px;
+            }
+            .op-plate .opp-content .oppc-text ul {
+                margin-left: -16px;
+                margin-top: 0;
+                margin-bottom: 0;
+                color: #6a6a6a;
+            }
+            .op-plate .opp-content .oppc-text ul li {
+                line-height: 18px;
+            }
+            .token-placeholder {
+                margin-top: 15px; margin-bottom: 15px;
+            }
+            .cf-error-details, .token-placeholder .main-wrapper .main-content {
+                border:1px solid #ededed;
+                background: #f9f9f9;
+                padding: 15px 20px;
+                margin: 0;
+                border-radius: 8px;
+            }
+            .cf-error-details p { 
+                margin: 0 0 5px 0;
+            }
+            
+            @media only screen and (max-width: 767px) {
+                body {
+                    margin: 0;
+                    padding: 16px;
+                }
+                .op-plate {
+                    height: auto;
+                    padding: 32px 0;
+                    gap: 24px;
+                }
+                .op-plate .opp-logo img {
+                    transform: scale(0.8);
+                }
+                .op-plate .opp-content {
+                    flex-direction: column;
+                    padding: 24px;
+                    gap: 24px;
+                }
+                .op-plate .opp-content .oppc-text {
+                    padding-left: 0;
+                    border-left: none;
+                }
+            }
+        </style>
+
+    </head>
+    <body data-new-gr-c-s-check-loaded="14.1150.0" data-gr-ext-installed="">
+        <section id="content" class="container-fluid noprint">
+            <!-- Error -->
+            <div class="op-plate">
+                <div class="opp-logo">
+                    <img src="https://err-code.infokes.id/logo-default.svg" alt="Logo">
+                </div>
+                <div class="opp-content">
+                    <div class="oppc-img">
+                        <img src="https://err-code.infokes.id/art-info.svg" alt="Error Image">
+                    </div>
+                    <div class="oppc-text">
+                        <div class="oppct-title">
+                           Silakan refresh halaman ini dalam beberapa detik lagi atau klik tombol back di browser Anda
+                        </div>
+                        <div class="oppct-desc">
+                            <div class="token-placeholder">
+                                ::CLOUDFLARE_ERROR_500S_BOX::
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
