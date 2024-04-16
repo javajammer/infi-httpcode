@@ -2,11 +2,11 @@
 class JavaJammer():
     
   def __init__(self):
-    self.name = "Java Jammer";
+    self.name = "Franky Setiawan";
     self.username = "javajammer";
-    self.location = "Jakarta, Indonesia";
-    self.twitter = "@infokes)";
-    self.web = "https://infokes.co.id";
+    self.location = "Bandung, Indonesia";
+    self.twitter = "@infokes";
+    self.web = "https://www.infokes.co.id";
   
   def __str__(self):
     return self.name
