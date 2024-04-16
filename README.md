@@ -15,8 +15,9 @@ if __name__ == '__main__':
     me = JavaJammer()
 ```
 <p>HTML Error Code Pages</br></br>
-html 5xx - https://err-code.infokes.id/cloudflare-5xx.html
-html 429 - https://err-code.infokes.id/cloudflare-429.html
+html 5xx - https://err-code.infokes.id/cloudflare-5xx.html </br>
+html 429 - https://err-code.infokes.id/cloudflare-429.html </br>
+
 </p>
 
 <!---
