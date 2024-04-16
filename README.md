@@ -17,7 +17,11 @@ if __name__ == '__main__':
 <p>HTML Error Code Pages</br></br>
 html 5xx - https://err-code.infokes.id/cloudflare-5xx.html </br>
 html 429 - https://err-code.infokes.id/cloudflare-429.html </br>
-
+html 1xxx - https://err-code.infokes.id/cloudflare-1xxx.html </br>
+html blocked by waf - https://err-code.infokes.id/cloudflare-block.html </br>
+html country block - https://err-code.infokes.id/cloudflare-country-block.html </br>
+html country challenge - https://err-code.infokes.id/cloudflare-country-challenge.html </br>
+html javascript challenge - https://err-code.infokes.id/cloudflare-underattack.html </br>
 </p>
 
 <!---
