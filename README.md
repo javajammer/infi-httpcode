@@ -16,6 +16,7 @@ if __name__ == '__main__':
 ```
 <p>HTML Error Code Pages</br></br>
 html 5xx - https://err-code.infokes.id/cloudflare-5xx.html
+html 429 - https://err-code.infokes.id/cloudflare-429.html
 </p>
 
 <!---
